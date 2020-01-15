@@ -1,0 +1,86 @@
+p{
+  color: white;
+  font-weight: normal;
+  font-family: areiel;
+  }
+     
+h1{
+  color: White;
+  font-weight: italics;
+  font-family: Cambria;
+  margin: 0%;
+  font-size: 300%;
+  }
+
+#maininfo{
+  color:white;
+}
+#title{
+  color:white;
+}
+#info2{
+  color:white;
+}
+
+.button{
+  text-align: center;
+  background-color: white;
+  font-size: 12
+}
+
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "info title info2"
+    "footer footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  height: 100vh;
+  margin: 0;
+  }  
+
+footer {
+  padding: 1.2em;
+  background: black;
+  text-align: center
+  }
+
+title {
+  padding: 1.2em;
+  background: black;
+  }
+
+header {
+  padding: 1.2em;
+  background: black;
+  text-align: center
+  }
+
+info {
+  padding: 1.2em;
+  background: black;
+  }
+
+div {
+  padding: 1.2em;
+  background: black;
+  }
+
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#title { 
+  grid-area: title;      
+  }
+#info { 
+  grid-area: info; 
+  }
+#info2 { 
+  grid-area: info2; 
+  } 
