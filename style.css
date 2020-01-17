@@ -16,18 +16,27 @@ h1{
   color:white;
   text-align: center;
 }
-#title{
-  color:white;
-}
+
 #info2{
   color:white;
 }
 
-.button{
+#title{
+  color:white;
+}
+
+
+button{
   text-align: center;
   background-color: white;
-  border: 10px;
+  border-radius: 10px;
+  font-size: 35px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin: -5px;
+  width: 125px
 }
+
 
 body { 
   display: grid;
