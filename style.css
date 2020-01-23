@@ -39,11 +39,12 @@ button{
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  font-size: 35px;
+  font-size: 4vw;
   cursor: pointer;
   border: 1px solid transparent;
   margin: -5px;
-  width: 125px
+  width: 15vw;
+  height: 8vh
 }
 
 
