@@ -14,10 +14,9 @@ h1{
   
   }
 
-#logo{
-  width:20vw;
-  height:20vh;
-  margin:10% 
+
+#hand{
+  width: 10vw;
 }
 
 #maininfo{
@@ -34,9 +33,6 @@ h1{
   font-size: 1.1vw;
 }
 
-
-
-
 button{
   text-align: center;
   background-color: white;
@@ -48,7 +44,6 @@ button{
   width: 15vw;
   height: 8vh
 }
-
 
 body { 
   display: grid;
@@ -97,9 +92,11 @@ div {
 #pageFooter {
   grid-area: footer;
   }
+
 #title { 
   grid-area: title;      
   }
+
 #info { 
   grid-area: info; 
   }
