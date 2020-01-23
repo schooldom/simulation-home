@@ -15,7 +15,9 @@ h1{
   }
 
 #logo{
-  color:white;
+  width:20vw;
+  height:20vh;
+  margin:10% 
 }
 
 #maininfo{
