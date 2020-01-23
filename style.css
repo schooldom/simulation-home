@@ -2,6 +2,7 @@ p{
   color: white;
   font-weight: normal;
   font-family: areiel;
+
   }
      
 h1{
@@ -9,7 +10,8 @@ h1{
   font-weight: italics;
   font-family: Cambria;
   margin: 0%;
-  font-size: 300%;
+  font-size: 6vw;
+  
   }
 
 #title{
@@ -19,11 +21,15 @@ h1{
 #maininfo{
   color:white;
   text-align: center;
+  margin: 0%;
+  font-size: 1.1vw;
 }
 
 #info2{
   color:white;
   text-align: center;
+  margin: 0%;
+  font-size: 1.1vw;
 }
 
 
@@ -80,8 +86,6 @@ info {
 div {
   padding: 1.2em;
   background: black;
-  font-size: 20px;#
-  text-align: center;
   }
 
 #pageHeader {
